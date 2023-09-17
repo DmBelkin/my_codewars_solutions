@@ -35,8 +35,6 @@ public class SuperMarketQueue_6KYU {
 //    P.S. The situation in this kata can be likened to the more-computer-science-related idea of a thread pool, with relation to running multiple processes at the same time: https://en.wikipedia.org/wiki/Thread_pool
 
     public static int solveSuperMarketQueue(int[] customers, int n) {
-        System.out.println(Arrays.toString(customers));
-        System.out.println(n);
         if (customers.length == 0) {
             return 0;
         }

@@ -28,5 +28,4 @@ public class CountIPAddresses_5KYU {
 
         return ((first * 256 * 256 * 256) +  (second * 256 * 256) +  (third * 256) + last);
     }
-
 }

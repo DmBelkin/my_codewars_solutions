@@ -7,8 +7,7 @@ public class ReverseWord_7KYU {
 //        "This is an example!" ==> "sihT si na !elpmaxe"
 //        "double  spaces"      ==> "elbuod  secaps"
 
-    public static String reverseWords(final String original) {
-
+    public static String reverseWords(String original) {
         String newString = "";
         for (int i = original.length() - 1;i >= 0; i--) {
             newString = newString.concat(Character.toString(original.charAt(i)));

@@ -2,7 +2,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public interface ClosestPairOfPointsInLinearithmicTime_3KYU {
+public class ClosestPairOfPoinslnLinearithmicTime_3KYU {
+
 
 //    DESCRIPTION:
 //    Given a number of points on a plane, your task is to find two points with the smallest distance between them in linearithmic O(n log n) time.
@@ -177,3 +178,4 @@ class Point {
         }
     }
 }
+

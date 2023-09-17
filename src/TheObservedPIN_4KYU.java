@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class TheObservedPIN_4KYU {
@@ -58,8 +57,6 @@ public class TheObservedPIN_4KYU {
                 }
             }
         }
-
-
         if (resultArray.length == 1) {
             for (int s = 0; s <= resultArray[0].length() - 1; s++) {
                 collect.add("" + resultArray[0].charAt(s));
